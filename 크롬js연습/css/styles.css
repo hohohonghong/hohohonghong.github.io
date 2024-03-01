@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "chop";
+    src: url(../font/bright.otf);
+    
+}
+body{
+    color:beige;
+    text-align: center;
+    font-family: "chop";
+    font-size:bold;
+}
+
+img {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
+.hidden {
+    display: none;
+  }
+
+#greeting{
+    position:relative;
+    top:10rem;
+    font-size: 500%;
+    
+    
+}
+#clock{
+    position:relative;
+    top:15rem;
+    font-size: 300%;
+}
+#login-form{
+    position:relative;
+    top:10rem;
+
+    size:200%;
+}
+
+#todo-form{
+    position: relative;
+    top:8rem;
+}
+#input1{
+    background:transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 3px white;
+    width: 15%;
+    outline:none;
+    font-size: 110%;
+    
+    
+}
+#input1::placeholder{
+    color:beige;
+    font-family: "chop";
+}
+#todo-list{
+    position: absolute;
+    list-style-type: none;
+    top: 30rem;
+    left: 49%;
+    font-size: 150%;
+    transform: translate(-50%, 0%);
+    text-align: right;
+    
+}
+#quote {
+    position:relative;
+    top:30rem;
+    font-size: 100%;
+}
+#quote span:last-child{
+
+    font-size: 150%;
+
+}
+#weather{
+    position: relative;
+    text-align: right;
+    bottom:23rem;
+    font-size: 150%;
+}
